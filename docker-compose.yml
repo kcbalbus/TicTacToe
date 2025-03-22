@@ -1,0 +1,11 @@
+version: '3'
+services:
+  backend:
+    build: ./pwc-tictactoe-backend
+    ports:
+      - "8080:8080"
+  frontend:
+    build: ./pwc-tictactoe-frontend
+    ports:
+      - "80:80"
+  

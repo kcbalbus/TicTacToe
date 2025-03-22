@@ -1,0 +1,26 @@
+{
+  "name": "pwc-tictactoe-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.6",
+    "aws-amplify": "^6.3.0",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "pinia": "^2.1.7",
+    "sockjs-client": "^1.6.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "webstomp-client": "^1.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.6"
+  }
+}
